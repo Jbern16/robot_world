@@ -1,0 +1,11 @@
+<section id = 'robots' class= "container">
+      <h1> Robot World!! </h1>
+        <% @robots.each do |robot| %>
+        <h3><a href="/robots/<%= robot.name %>"><%= robot.name  %></a></h3>
+          <a id="robot-name" href="/robots/<%= robot.name %>/edit">Edit</a>
+          <form action="/robots/<%= robot.name %>" method="post">
+            <input type="hidden" name="_method" value="delete">
+            <input role="button" type="submit" value="Delete">
+          </form>
+      <% end %>
+    </section>

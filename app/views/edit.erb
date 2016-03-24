@@ -1,0 +1,13 @@
+<form action="/robots/<%= @robot.name %>" method="post">
+  <p> Edit </p>
+  <h1> <%= @robot.name %> </h1>
+  <input type="hidden" name="_method" value="put">
+  <input type="text" name="robot[city]" value=" <%= @robot.city %>"><br>
+  <input type="text" name="robot[state]" value="<%= @robot.state %>"><br>
+  <input type="text" name="robot[avatar]" value=" <%= @robot.avatar %>"><br>
+  <input type="text" name="robot[birthdate]" value=" <%= @robot.birthdate %>"><br>
+  <input type="text" name="robot[date_hired]" value=" <%= @robot.date_hired %>"><br>
+  <input type="text" name="robot[department]" value=" <%= @robot.department %>"><br>
+  <img src="https://robohash.org/<%= @robot.avatar %>.png">
+  <button type='submit' class = 'btn btn-primary col-sm-2 col-offset-md-2'>Save</button>
+</form>

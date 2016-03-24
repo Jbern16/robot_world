@@ -1,0 +1,65 @@
+---
+robots:
+- name: bern
+  city: "   booaaa"
+  state: aaaaa
+  avatar: "   2000"
+  birthdate: " 2016-03-22 21:35:39 -0600"
+  date_hired: "   a"
+  department: "   a"
+- name: Brad2
+  city: "  Ancorage"
+  state: Ancorage
+  avatar: "  Brad"
+  birthdate: " 2016-03-22 21:32:46 -0600"
+  date_hired: "  "
+  department: " Maintence"
+- name: Alan
+  city: New York
+  state: New York
+  avatar: Angry
+  birthdate: 
+  date_hired: 
+  department: Dumb Department
+- name: Nicole
+  city: Brooklyn
+  state: NY
+  avatar: 'Fashionista '
+  birthdate: 
+  date_hired: 
+  department: DESIGN COOL STUFF
+- name: test
+  city: test
+  state: test
+  avatar: test
+  birthdate: 
+  date_hired: 
+  department: test
+- name: test
+  city: test
+  state: test
+  avatar: test
+  birthdate: 
+  date_hired: 
+  department: test
+- name: test
+  city: test
+  state: test
+  avatar: test
+  birthdate: 
+  date_hired: 
+  department: test
+- name: test
+  city: test
+  state: test
+  avatar: test
+  birthdate: 
+  date_hired: 
+  department: test
+- name: test
+  city: test
+  state: test
+  avatar: test
+  birthdate: 
+  date_hired: 
+  department: test
