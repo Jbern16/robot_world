@@ -1,9 +1,10 @@
-<section id = 'robots' class= "container">
-      <h1> Robot World!! </h1>
+<section id = 'robots'>
+      <h3> Your Robots </h3>
         <% @robots.each do |robot| %>
-        <h3><a href="/robots/<%= robot.name %>"><%= robot.name  %></a></h3>
-          <a id="robot-name" href="/robots/<%= robot.name %>/edit">Edit</a>
-          <form action="/robots/<%= robot.name %>" method="post">
+        <h3><a href="/robots/<%= robot.id %>"><img src="https://robohash.org/<%= robot.avatar %>.png"></a></h3>
+
+          <a id="robot-name" href="/robots/<%= robot.id %>/edit">Edit</a>
+          <form action="/robots/<%= robot.id %>" method="post">
             <input type="hidden" name="_method" value="delete">
             <input role="button" type="submit" value="Delete">
           </form>

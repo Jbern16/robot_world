@@ -1,0 +1,36 @@
+/*
+images
+*/
+
+img {
+  height: 250px;
+  width: 250px;
+
+}
+
+
+/*
+grid
+*/
+
+.pad-custom {
+  padding-top: 50px;
+}
+
+
+/*
+font
+*/
+
+html {
+  font-family: 'Press Start 2P', cursive;
+}
+
+/*
+background
+*/
+
+body {
+  background-color: #ffffff;
+  background-image: url("http://www.transparenttextures.com/patterns/light-wool.png");
+}
